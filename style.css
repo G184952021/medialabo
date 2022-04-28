@@ -52,9 +52,34 @@ h4{
 
 .kadai{
     border-radius: 20px;
+    background: #e0e0e0;
+    box-shadow: inset 5px 5px 10px #bebebe,
+                inset -5px -5px 10px #ffffff;
+        padding:0.5em;
+        margin:15px;
+}
+
+a{
+width:auto;
+height:auto;
+padding:5px;
+border-radius: 5px;
+background: #e0e0e0;
+box-shadow:  5px 5px 10px #bebebe,
+             -5px -5px 10px #ffffff;
+}
+
+a:visited{
+    color:rgb(0, 129, 97);
+}
+
+a:hover{
+width:auto;
+height:auto;
+padding:5px;
+border-radius: 5px;
 background: #e0e0e0;
 box-shadow: inset 5px 5px 10px #bebebe,
             inset -5px -5px 10px #ffffff;
-    padding:0.5em;
-    margin:15px;
+text-decoration:none;
 }
