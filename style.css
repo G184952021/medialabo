@@ -1,5 +1,5 @@
 body p,h1,h2,h3,h4{
-    color:rgb(53, 52, 52);
+    color:rgb(19, 19, 54);
 }
 
 body {
@@ -13,44 +13,45 @@ body {
 .box {
     width:auto;
     height: auto;
-    border-radius: 10px;
-    background-color: rgb(181, 209, 200);
-    padding: 1em;
+    border-radius: 20px;
+    background: #e0e0e0;
+    box-shadow:  5px 5px 10px #bebebe,
+                -5px -5px 10px #ffffff;
+    margin:0 auto;
+    padding:1em;
 }
 
 h1{
-    border-bottom:3mm ridge rgb(174, 237, 199);
+    border-bottom:3mm ridge rgb(37, 69, 129);
 }
 
 .a{
-width:auto;
-height:auto;
-border-radius:10px;
-background-color:rgb(181, 209, 200);
-padding:0.7em;
+    width:auto;
+    height: auto;
+    border-radius: 20px;
+    background: #e0e0e0;
+    box-shadow:  5px 5px 10px #bebebe,
+                -5px -5px 10px #ffffff;
+    margin:0 auto;
+    padding:1em;
 }
 
 .b{
     width:auto;
-    height:auto;
-    background-color:rgb(181,209,200);
-    padding:5px;
-    border-radius:10px;
-}
-.practice{
-    width:auto;
-    height:auto;
-    background-color:#e0ebaf;
-    padding:10px;
-    margin:20px;
-    border-radius:10px;
+    height: auto;
+    border-radius: 20px;
+    background: #e0e0e0;
+    box-shadow:  5px 5px 10px #bebebe,
+                -5px -5px 10px #ffffff;
+    margin:0 auto;
+    padding:1em;
 }
 
 .kadai{
-    width:auto;
-    height:auto;
-    background-color:#e0ebaf;
-    border-radius:10px;
-    margin:20px;
-    padding:10px;
+    border-radius: 20px;
+background: #e0e0e0;
+box-shadow: inset 5px 5px 10px #bebebe,
+            inset -5px -5px 10px #ffffff;
+    padding:0.5em;
+    margin:15px;
 }
