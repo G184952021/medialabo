@@ -18,14 +18,21 @@ body {
 }
 
 h1{
-    border-bottom:3mm ridge rgb(91, 233, 233);
+    border-bottom:3mm ridge rgb(203, 250, 236);
 }
 
 .a{
 width:auto;
 height:auto;
 border-radius:5px;
-background-color:rgb(203, 250, 236);
+background-color:rgb(216, 240, 228);
 padding:1em;
 }
 
+.b{
+    width:auto;
+    height:auto;
+    border-radius:5px;
+    background-color:(216,240,228);
+    padding:1em;
+}
