@@ -45,3 +45,12 @@ padding:0.7em;
     margin:20px;
     border-radius:10px;
 }
+
+.kadai{
+    width:auto;
+    height:auto;
+    background-color:#e0ebaf;
+    border-radius:10px;
+    margin:20px;
+    padding:10px;
+}
