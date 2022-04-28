@@ -6,32 +6,42 @@ body {
     width: 90%;
     max-width: 900px;
     margin: 0 auto;
-    font: .9em/1.2 Arial, Helvetica, sans-serif
+    font: .9em/1.2 Arial, Helvetica, sans-serif;
+    background-color:rgb(222, 219, 219);
   }
   
 .box {
     width:auto;
     height: auto;
-    border-radius: 5px;
-    background-color: rgb(216, 240, 228);
+    border-radius: 10px;
+    background-color: rgb(181, 209, 200);
     padding: 1em;
 }
 
 h1{
-    border-bottom:3mm ridge rgb(203, 250, 236);
+    border-bottom:3mm ridge rgb(224, 226, 226);
 }
 
 .a{
 width:auto;
 height:auto;
-border-radius:5px;
-background-color:rgb(216, 240, 228);
+border-radius:10px;
+background-color:rgb(181, 209, 200);
 padding:0.7em;
 }
 
 .b{
     width:auto;
     height:auto;
-    background-color:rgb(216,240,228);
+    background-color:rgb(181,209,200);
     padding:5px;
+    border-radius:10px;
+}
+.practice{
+    width:auto;
+    height:auto;
+    background-color:#e0ebaf;
+    padding:10px;
+    margin:20px;
+    border-radius:10px;
 }
