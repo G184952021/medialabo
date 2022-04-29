@@ -65,12 +65,15 @@ height:auto;
 padding:5px;
 border-radius: 5px;
 background: #e0e0e0;
-box-shadow:  5px 5px 10px #bebebe,
-             -5px -5px 10px #ffffff;
+box-shadow:  5px 5px 10px #cacaca,
+             -5px -5px 10px #f6f6f6;
+}
+a:link{
+    text-decoration: none;
 }
 
 a:visited{
-    color:rgb(0, 129, 97);
+    color:rgb(114, 32, 207);
 }
 
 a:hover{
@@ -79,7 +82,14 @@ height:auto;
 padding:5px;
 border-radius: 5px;
 background: #e0e0e0;
-box-shadow: inset 5px 5px 10px #bebebe,
-            inset -5px -5px 10px #ffffff;
+box-shadow: inset 5px 5px 10px #cacaca,
+            inset -5px -5px 10px #f6f6f6;
 text-decoration:none;
+}
+
+.shikiri{
+    display: grid;                      
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px;
+    grid-gap: 10px;
 }
