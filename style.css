@@ -35,18 +35,7 @@ h4{
     background: #e0e0e0;
     box-shadow:  5px 5px 10px #bebebe,
                 -5px -5px 10px #ffffff;
-    margin:0 auto;
-    padding:1em;
-}
-
-.b{
-    width:auto;
-    height: auto;
-    border-radius: 20px;
-    background: #e0e0e0;
-    box-shadow:  5px 5px 10px #bebebe,
-                -5px -5px 10px #ffffff;
-    margin:0 auto;
+    margin:10px;
     padding:1em;
 }
 
@@ -62,7 +51,7 @@ h4{
 a{
 width:auto;
 height:auto;
-padding:5px;
+padding:3px;
 border-radius: 5px;
 background: #e0e0e0;
 box-shadow:  5px 5px 10px #cacaca,
@@ -79,7 +68,7 @@ a:visited{
 a:hover{
 width:auto;
 height:auto;
-padding:5px;
+padding:3px;
 border-radius: 5px;
 background: #e0e0e0;
 box-shadow: inset 5px 5px 10px #cacaca,
@@ -90,6 +79,15 @@ text-decoration:none;
 .shikiri{
     display: grid;                      
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100px;
-    grid-gap: 10px;
+    grid-gap: 10px ;
+}
+
+.b{
+    display: grid;                      
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px ;
+}
+
+h2{
+    border-bottom:0.5px solid rgb(19, 19, 54);
 }
