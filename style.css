@@ -94,11 +94,3 @@ text-decoration:none;
 h2{
     border-bottom:0.5px solid rgb(19, 19, 54);
 }
-
-.q{
-   position:absolute;
-   border:1px solid;
-   top:20px;
-   right:150px;
-   width:auto;
-}
