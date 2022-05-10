@@ -21,10 +21,30 @@ body {
     padding:1em;
 }
 
-h1{
-    border-bottom:3mm ridge rgb(37, 69, 129);
-}
-
+h1 {
+    position: relative;
+    display: inline-block;
+    padding: 0 55px;
+  }
+  
+  h1:before, h1:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    width: 45px;
+    height: 2px;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+  }
+  
+  h1:before {
+    left:0;
+  }
+  h1:after {
+    right: 0;
+  }
+  
 h4{
     border-bottom:0.5px solid rgb(19, 19, 54);
 }
@@ -94,3 +114,4 @@ text-decoration:none;
 h2{
     border-bottom:0.5px solid rgb(19, 19, 54);
 }
+
