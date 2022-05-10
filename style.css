@@ -51,7 +51,8 @@ h4{
 a{
 width:auto;
 height:auto;
-padding:3px;
+padding:5px;
+margin:10px;
 border-radius: 5px;
 background: #e0e0e0;
 box-shadow:  5px 5px 10px #cacaca,
@@ -59,16 +60,18 @@ box-shadow:  5px 5px 10px #cacaca,
 }
 a:link{
     text-decoration: none;
+    color:rgba(19,19,54);
 }
 
 a:visited{
-    color:rgb(114, 32, 207);
+    color:rgba(19, 19, 54);
 }
 
 a:hover{
 width:auto;
 height:auto;
-padding:3px;
+padding:5px;
+margin:10px;
 border-radius: 5px;
 background: #e0e0e0;
 box-shadow: inset 5px 5px 10px #cacaca,
@@ -90,4 +93,12 @@ text-decoration:none;
 
 h2{
     border-bottom:0.5px solid rgb(19, 19, 54);
+}
+
+.q{
+   position:absolute;
+   border:1px solid;
+   top:20px;
+   right:150px;
+   width:auto;
 }
