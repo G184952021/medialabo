@@ -111,7 +111,6 @@ text-decoration:none;
     grid-gap: 10px ;
 }
 
-h2{
+h2,h3{
     border-bottom:0.5px solid rgb(19, 19, 54);
 }
-
