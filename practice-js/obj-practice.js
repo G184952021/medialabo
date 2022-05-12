@@ -16,3 +16,10 @@ let gakka = [
 
 //////////////// ここから下にプログラムを書きたそう!
 
+console.log(campus.address);
+for (let c of campus.buildingD){
+console.log(c);
+}
+for(let g of gakka){
+console.log(g.name);
+}
