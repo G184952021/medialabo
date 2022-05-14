@@ -62,8 +62,8 @@ h4{
 .kadai{
     border-radius: 20px;
     background: #e9e9e9;
-    box-shadow:  10px 10px 20px #bababa,
-             -10px -10px 20px #ffffff;
+    box-shadow: inset 10px 10px 20px #bababa,
+            inset -10px -10px 20px #ffffff;
         padding:0.5em;
         margin:15px;
 }
@@ -94,8 +94,8 @@ padding:5px;
 margin:10px;
 border-radius: 5px;
 background: #e9e9e9;
-box-shadow:  10px 10px 20px #bababa,
-             -10px -10px 20px #ffffff;
+box-shadow: inset 10px 10px 20px #bababa,
+            inset -10px -10px 20px #ffffff;
 text-decoration:none;
 }
 
