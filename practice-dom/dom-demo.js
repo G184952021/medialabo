@@ -19,8 +19,10 @@ let oceans = [
     '南太平洋',
     '南極海'
   ]
-  ul=document.createElement('ocean');
-  h2sevenOcean.insertAdjacentElement('beforeend', ul);
+  ul=document.createElement('ul');
+
+  h2sevenOcean.insertAdjacentElement('aftereend', ul);
+
   for (let o of oceans) {
     li = document.createElement('li');
       li.textContent=ul;
