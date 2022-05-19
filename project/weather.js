@@ -46,11 +46,10 @@ let data = {
 };
 
 ////////// 課題3-2 ここからプログラムを書こう
-let name="data.name";
-let temp_max="data.main.temp_max";
-let tem_min="data.main.temp_min";
 
-let h1 = document.createElement('h1');
-h1.textContent='name';
-let a = document.querySelector('span#1816670');
-a.insertAdjacentElement('afterend', h1);
+
+let a=document.querySelector('h1#country');
+a.textContent=data.name;
+
+let b=document.querySelector('h1#weather');
+b.textContent=data.weather.main;
