@@ -21,10 +21,10 @@ let oceans = [
   ]
   ul=document.createElement('ul');
   h2sevenOcean.insertAdjacentElement('beforeend', ul);
-  li = document.createElement('li');
-  ul.insertAdjacentElement('beforeend', li);
   for (let o of oceans) {
-      li.textContent=oceans;
+    li = document.createElement('li');
+      li.textContent=oceans[];
+  ul.insertAdjacentElement('beforeend', li);
   }
 let h2s=document.querySelectorAll('h2');
 for(let h2 of h2s){
