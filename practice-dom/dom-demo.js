@@ -21,7 +21,7 @@ let oceans = [
   ]
   ul=document.createElement('ul');
 
-  h2sevenOcean.insertAdjacentElement('aftereend', ul);
+  h2sevenOcean.insertAdjacentElement('afterend', ul);
 
   for (let o of oceans) {
     let li = document.createElement('li');
@@ -29,7 +29,7 @@ let oceans = [
   ul.insertAdjacentElement('beforeend', li);
   }
 
-  
+
 let h2s=document.querySelectorAll('h2');
 for(let h2 of h2s){
     h2.style.backgroundColor='palegreen';
