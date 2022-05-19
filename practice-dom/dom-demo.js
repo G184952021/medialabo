@@ -22,9 +22,7 @@ let oceans = [
   ul=document.createElement('ul');
   h2sevenOcean.insertAdjacentElement('beforeend', ul);
   for (let o of oceans) {
-    ul=document.createElement('ul');
       ul.textContent=oceans;
-      h2sevenOcean.insertAdjacentElement('beforeend', ul);
   }
 let h2s=document.querySelectorAll('h2');
 for(let h2 of h2s){
