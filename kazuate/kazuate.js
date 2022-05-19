@@ -8,10 +8,11 @@ hantei();
 hantei();
 function hantei(){
     let yoso =4;
+    let b=document.querySelector('span#yoso');
     kaisu=kaisu+1;
-    console.log(kaisu+'回目の予想:'+yoso);
+    let yosou="(kaisu+'回目の予想:'+yoso)";
     if(yoso===kotae&&a<1){
-        console.log('正解です。おめでとう！');
+        let kotae="('正解です。おめでとう！')";
         a=a+1;
         kaisu=kaisu+2;
     }
