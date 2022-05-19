@@ -51,5 +51,8 @@ let data = {
 let a=document.querySelector('h1#country');
 a.textContent=data.name;
 
-let b=document.querySelector('h1#weather');
-b.textContent=data.weather.main;
+let b=document.querySelector('span#highkion');
+b.textContent=data.main.temp_max;
+
+let c=document.querySelector('span#lowkion');
+c.textContent=data.main.temp_min;
