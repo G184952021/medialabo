@@ -2,40 +2,46 @@ let kotae = Math.floor(Math.random()*10)+1;
 console.log('答え:' +kotae);
 let kaisu = 0;
 let a=0;
-hantei();
+let b=document.querySelector('#kaitou');
+b.addEventListener('click',hantei);
+
 function hantei(){
-    let yoso =4;
+    let i = document.querySelector('input[name="yoso"]');
+    let s =i.value;
+    let yoso = Number(s);
     let b=document.querySelector('span#yoso');
     b.textContent=yoso;
+    let ko='回目の予想:';
+    let d=document.querySelector('span#ko');
+    d.textContent=ko;
     kaisu=kaisu+1;
     let c=document.querySelector('span#kaisu');
     c.textContent=kaisu;
     
-    if(yoso===kotae&&a<1){
-        let kotae="正解です。おめでとう！";
+    if(yoso===kotae&&a<1||kaisu<=3){
+        let io="正解です。おめでとう！";
         let d=document.querySelector('p#result');
-        d.textContent=kotae;
+        d.textContent=io;
         a=a+1;
-        kaisu=kaisu+2;
     }
     if(yoso<kotae&&kaisu<3){
-        let kotae="まちがい、答えはもっと大きいですよ。";
+        let io="まちがい、答えはもっと大きいですよ。";
         let d=document.querySelector('p#result');
-        d.textContent=kotae;
+        d.textContent=io;
     }
     if(yoso>kotae&&kaisu<3){
-        let kotae="まちがい、答えはもっと小さいですよ。";
+        let io="まちがい、答えはもっと小さいですよ。";
         let d=document.querySelector('p#result');
-        d.textContent=kotae;
+        d.textContent=io;
     }
     if(kaisu===3&&yoso!==kotae){
-        let kotae="まちがい、残念でした答えは'+'kotae'+'です。";
+        let io="まちがい、残念でした答えは"+kotae+"です。";
         let d=document.querySelector('p#result');
-        d.textContent=kotae;
+        d.textContent=io;
     }
-    if(kaisu>=4){
-        let kotae="答えは'+kotae+'でした。　すでにゲームは終わっています";
+    if(kaisu>=4||a>=2){
+        let io="答えは"+kotae+"でした。　すでにゲームは終わっています";
         let d=document.querySelector('p#result');
-        d.textContent=kotae;
+        d.textContent=io;
     }
   }

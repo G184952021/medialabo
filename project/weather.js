@@ -47,6 +47,10 @@ let data = {
 
 ////////// 課題3-2 ここからプログラムを書こう
 
+var element = document.getElementById( "target" ) ;
+
+// 選択状態の項目の値を取得
+var d = element.value ;
 
 let a=document.querySelector('h1#country');
 a.textContent=data.name;
