@@ -46,17 +46,21 @@ let data = {
 };
 
 ////////// 課題3-2 ここからプログラムを書こう
+let s = document.querySelector('button#search');
+s.addEventListener('click', kensaku);
 
+function kensaku(){
 var element = document.getElementById( "target" ) ;
-
-// 選択状態の項目の値を取得
+// 選択状態の項目の値を取得,ここから下のdataはfor文で数字を変えたい。
 var d = element.value ;
-
+if(d===data.name){
 let a=document.querySelector('h1#country');
-a.textContent=data.name;
+a.textContent=d;
 
 let b=document.querySelector('span#highkion');
 b.textContent=data.main.temp_max;
 
 let c=document.querySelector('span#lowkion');
 c.textContent=data.main.temp_min;
+}
+}
