@@ -2,7 +2,7 @@ html,body {
     height: 100%
   }
   
-  body{
+  /*body{
     position: fixed;
     top: 0; left: 0;
     width: 100%; height: 100%;
@@ -10,9 +10,9 @@ html,body {
     background: #a7ecf8;
     background: linear-gradient(to bottom, #7fe6e6 0%, #ef7df3 100%);
     position:relative;
-    }
+    }*/
 
-    .box{
+    #box{
     background-color: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(9px);
     -webkit-backdrop-filter: blur(9px);
@@ -36,3 +36,53 @@ html,body {
     h1,h2{ 
         text-align: center;
     }
+    
+    .addColor2 {
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      content: "";
+      position:relative;
+      background: linear-gradient(45deg, #FDBB64, #EFEBB2, #89E1FD);
+      background-size: 600% 600%;
+      animation: GradientBackground 10s ease infinite;
+    }
+    .addColor{
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      content: "";
+      position:relative;
+        background: linear-gradient(45deg, #B8BEE6, #8F96C0, #A8DBF6);
+        background-size: 600% 600%;
+        animation: GradientBackground 10s ease infinite;
+    }
+    .addColor3{
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      content: "";
+      position:relative;
+      background: linear-gradient(45deg, #CDE7F4, #AFFFF4, #D5CFFF);
+      background-size: 600% 600%;
+      animation: GradientBackground 10s ease infinite;
+    }
+    .addColor4{
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      content: "";
+      position:relative;
+      background: linear-gradient(45deg, #04A6C0, #075299, #3C52BD, #6AC8E6);
+      background-size: 800% 800%;
+      animation: GradientBackground 10s ease infinite;
+    }
+    @keyframes GradientBackground {
+      0% {
+        background-position: 0% 50%;
+      }
+
+      50% {
+        background-position: 100% 50%;
+      }
+
+      100% {
+        background-position: 0% 50%;
+      }
+    };
