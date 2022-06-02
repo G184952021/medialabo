@@ -1,6 +1,7 @@
 let kotae = Math.floor(Math.random()*10)+1;
 console.log('答え:' +kotae);
 let kaisu = 0;
+let kaisu1=0;
 let a=0;
 let b=document.querySelector('#kaitou');
 b.addEventListener('click',hantei);
@@ -15,26 +16,27 @@ function hantei(){
     let d=document.querySelector('span#ko');
     d.textContent=ko;
     kaisu=kaisu+1;
+    kaisu1=kaisu1+1;
     let c=document.querySelector('span#kaisu');
-    c.textContent=kaisu;
+    c.textContent=kaisu1;
     
-    if(yoso===kotae&&a<1||kaisu<=3){
+    if(yoso===kotae&&a===0&&kaisu<=3){
         let io="正解です。おめでとう！";
         let d=document.querySelector('p#result');
         d.textContent=io;
-        a=a+1;
+        kaisu=kaisu+2;
     }
-    if(yoso<kotae&&kaisu<3){
+    else if(yoso<kotae&&kaisu<3){
         let io="まちがい、答えはもっと大きいですよ。";
         let d=document.querySelector('p#result');
         d.textContent=io;
     }
-    if(yoso>kotae&&kaisu<3){
+    else if(yoso>kotae&&kaisu<3){
         let io="まちがい、答えはもっと小さいですよ。";
         let d=document.querySelector('p#result');
         d.textContent=io;
     }
-    if(kaisu===3&&yoso!==kotae){
+    else if(kaisu===3&&yoso!==kotae){
         let io="まちがい、残念でした答えは"+kotae+"です。";
         let d=document.querySelector('p#result');
         d.textContent=io;
