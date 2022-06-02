@@ -5,21 +5,31 @@
        <title>Project</title>
        <link rel="stylesheet" href="project/project.css">
        <script src="project/weather.js" defer></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
     </head>
 
        <body>
         <select id="target">
-            <option><span id=1816670>北京市</span>
-            <option>
+            <option value="360630">カイロ
+            <option value="2147714">シドニー
+            <option value="1880252">シンガポール
+            <option value="1850147">東京
+            <option value="5128581">ニューヨーク
+            <option value="2968815">パリ
+            <option value="1816670">北京      
+            <option value="524901">モスクワ
+            <option value="993800">ヨハネスブルク
+            <option value="3451189">リオデジャネイロ
+            <option value="5368361">ロサンゼルス
+            <option value="2643743">ロンドン
         </select>
         <button id="search">決定</button>
 
            <div class="box">
            <h1 id="country"></h1>
                <h1 id="tenki"></h1>
-               <h2>最高気温:<span id="highkion"></span>℃</h2>
-               <h2>最低気温:<span id="lowkion"></span>℃</h2>
-               <h2 id="kazamuki"></h2><h2 id="kazespeed"></h2>
+               <h2><span id="ooo"></span><span id="highkion"></span><span id="do"></span></h2>
+               <h2><span id="oooo"></span><span id="lowkion"></span><span id="doo"></span></h2>
 
            <!--Name:都市名
            Weather.description:天気
