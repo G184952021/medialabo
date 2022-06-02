@@ -62,5 +62,8 @@ b.textContent=data.main.temp_max;
 
 let c=document.querySelector('span#lowkion');
 c.textContent=data.main.temp_min;
+
+let e=document.querySelector('h1#tenki');
+e.textContent=data.weather[main];
 }
 }
