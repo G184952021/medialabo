@@ -41,7 +41,7 @@ function hantei(){
         let d=document.querySelector('p#result');
         d.textContent=io;
     }
-    if(kaisu>=4||a>=2){
+    else if(kaisu>=4&&yoso!==kotae||kaisu>3&&yoso===kotae){
         let io="答えは"+kotae+"でした。　すでにゲームは終わっています";
         let d=document.querySelector('p#result');
         d.textContent=io;
